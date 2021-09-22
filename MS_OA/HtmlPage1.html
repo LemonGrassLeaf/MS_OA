@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Microsoft OA</title>
+    <link href="Style Sheet/StyleSheet1.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="JavaScript.js"></script>
+   
+</head>
+<body>
+    <table style="font-family:Arial">
+        <tr>
+            <td width="40%">
+                <h2>Query: {The Great Wall}</h2>
+                <div id="q1">
+                    <div style="padding: 10px; border: 2px solid blue; font-size: 24px; width: 90%">
+                        1. How is the entity on the right panel relevant to the query?
+                    </div>
+                    <div id="e1" style="color:red"> </div>
+                    <t style="font-size: 24px; padding: 10px;">
+                        <div>
+                            <input type="radio" id="q1a1"
+                                   name="contact" value="100">
+                            <label for="contactChoice1">Excellent</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="q1a2"
+                                   name="contact" value="50">
+                            <label for="contactChoice2">Good</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="q1a3"
+                                   name="contact" value="0">
+                            <label for="contactChoice3">Poor</label>
+                        </div>
+                       
+                    </t>
+                </div>
+                <div id="q2">
+                    <div style="padding: 10px; border: 2px solid blue; font-size:24px; width:80%">
+                        2. Which parts of content are relevant to the query?
+                    </div>
+                    <div id="e2" style="color:red"> </div>
+                    <t style="font-size:24px;">
+                        <div style="padding:10px; font-size:20px" ; id="multi-select">
+                            <label for="one">
+                                <input type="checkbox" id="q2a1" value="50" />Image<br>
+                            </label>
+                            <label for="two">
+                                <input type="checkbox" id="q2a2" value="50" />Name<br>
+                            </label>
+                            <label for="three">
+                                <input type="checkbox" id="q2a3" value="25" />Description
+                            </label>
+                        </div>
+                    </t>
+                </div>
+               
+                <!-- form-footer -->
+                <div style=" padding: 10px 20px; background-color: gray; color: white; width: 90%; height:25px">
+                    <t style="float: right;">
+                        <button type="submit" id="submit" class="btn2">Submit</button>
+                        <button type="submit" class="btn3" onClick="window.location.reload();">Skip</button>
+                    </t>
+                </div>
+                
+            </td>
+            <td width="40%">
+
+                <p style="padding: 10px; border: 2px solid blue;">
+                   <a style="color:cornflowerblue; font-weight:bold"> Name</a> : The Great Wall
+                </p>
+                <a style="color:cornflowerblue; font-weight:bold">Description:</a>
+                <t>
+                    The Great Wall (Chinese: 长城) is a 2016 science fantasy action monster film directed by Zhang Yimou, with a screenplay by Carlo Bernard, Doug Miro and Tony Gilroy, from a story by Max Brooks, Edward Zwick and Marshall Herskovitz. An American and Chinese co-production starring Matt Damon, Jing Tian, Pedro Pascal, Willem Dafoe, and Andy Lau, the plot centers around a European mercenary warrior (Matt Damon) imprisoned by imperial Chinese forces within the Great Wall of China after arriving in search of gunpowder, eventually joining forces with the Chinese to help combat an alien threat. The Great Wall is Zhang's first English-language film.[7]
+
+                    Principal photography for the film began on March 30, 2015, in Qingdao, China, and it premiered in Beijing on December 6, 2016. It was released by China Film Group in China on December 16, 2016, and in the United States on February 17, 2017 by Universal Pictures. The film received negative reviews from critics, with praise for its action sequences, though the plot received criticism.[8] Although it grossed $335 million worldwide, the film was still considered a box office bomb due to its high production and marketing costs, with losses as high as $75 million.
+                </t>
+            </td>
+            <td width="20%">
+                <!--<img src="https://th.bing.com/th/id/OIP.csGaeaJ6-hvyxOOGenVMYAHaLH?pid=ImgDet&rs=1" />-->
+                <img src="https://theGreatWall.bing.com/th/id/OIP.csGaeaJ6-hvyxOOGenVMYAHaLH?pid=ImgDet&rs=1" />
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
